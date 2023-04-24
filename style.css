@@ -1,0 +1,64 @@
+.button{
+    
+    border: black;
+color:darkgreen;
+padding: 15px 32px;
+text-align: center;
+text-decoration:gray;
+display:-ms-inline-flexbox ;
+font-size: 20px;
+margin: 6px 3px;
+cursor: pointer;
+border-radius:10%
+
+}
+.tr{
+    color:white;
+}
+form {
+    margin: 60px;
+    margin-top: 15px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0px;
+}
+
+.form input[type="text"],
+.input[type="email"] {
+    display: block;
+    padding: 10px 0;
+    margin: 15px 0;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.form input[type="submit"] {
+    display: block;
+    padding: 10px 0;
+    margin: 1px;
+    border: 1px solid transparent;
+    background: #3262ab;
+    color: white;
+    border-radius: 5px;
+    width: 25%;
+    cursor: pointer;
+    transition: all 1s;}
+.message .success{
+    padding: 30px 0;
+    font-size: 20px;
+    color:rgb(17, 204, 17);
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+}
+ .message .danger{
+    padding: 30px 0;
+    font-size: 20px;
+    color: rgb(244, 50, 50);
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+    transition: .3s;
+}
